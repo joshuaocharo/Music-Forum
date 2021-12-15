@@ -42,7 +42,7 @@
         for (let thread of threads) {
             var html = `
             <li class="row">
-                <a href="./thread.html?${thread.id}">
+                <a href="./thread.php?${thread.id}">
                     <h4 class="title">
                         ${thread.title}
                     </h4>
