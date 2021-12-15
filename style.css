@@ -1,0 +1,116 @@
+/* Content */
+body {
+  margin: 10px 60px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1, h4, ol {
+  margin: 0;
+}
+p {
+  margin: 5px 0;
+}
+.top-bar {
+  background-color: skyblue;
+  padding: 0 40px;
+}
+.main {
+  background-color: #F6F6EF;
+  padding: 10px 15px;
+}
+.row {
+  padding: 5px 0;
+}
+.bottom {
+  display: flex;
+  color: grey;
+  font-size: 12px;
+}
+.timestamp {
+  padding-right: 10px;
+}
+
+.content {
+  padding: 8px 90px;
+  font-family: "Roboto", sans-serif;
+}
+
+.content p {
+  line-height: 1.9;
+}
+
+.content img {
+  max-height: 500px;
+}
+
+/* Share Buttons */
+
+.share-btn-container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 15%;
+  transform: translateY(-50%);
+}
+
+.share-btn-container a i {
+  font-size: 32px;
+}
+
+.share-btn-container a {
+  margin: 12px 0;
+  transition: 500ms;
+}
+
+.share-btn-container a:hover {
+  transform: scale(1.2);
+}
+
+.share-btn-container .fa-facebook {
+  color: #3b5998;
+}
+
+.share-btn-container .fa-twitter {
+  color: #1da1f2;
+}
+
+.share-btn-container .fa-linkedin {
+  color: #0077b5;
+}
+
+.share-btn-container .fa-pinterest {
+  color: #bd081c;
+}
+
+.share-btn-container .fa-whatsapp {
+  color: #25d366;
+}
+
+/* Media Queries */
+
+@media (max-width: 550px) {
+  .content {
+    padding: 8px 32px;
+  }
+
+  .share-btn-container {
+    transform: unset;
+    top: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex-direction: row;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
+    padding: 16px 0;
+    justify-content: center;
+  }
+
+  .share-btn-container a {
+    margin: 0 32px;
+  }
+}
