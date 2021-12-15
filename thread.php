@@ -63,9 +63,9 @@
             var commentHtml = `
                 <div class="comment">
                     <div class="top-comment">
-                        <p class="user">
+                        <p class="user"><strong>
                             ${comment.author}
-                        </p>
+                        </strong></p>
                         <p class="comment-ts">
                             ${new Date(comment.date).toLocaleString()}
                         </p>
